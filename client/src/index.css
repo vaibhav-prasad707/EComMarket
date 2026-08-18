@@ -1,0 +1,19 @@
+/* Signal & Shelf philosophy: editorial data journalism on warm paper, with ink navy for trust, coral/teal for the two market buckets, and saffron for evidence signals. */
+@import "tailwindcss";
+@import "tw-animate-css";
+@custom-variant dark (&:is(.dark *));
+@theme inline {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-background: var(--background); --color-foreground: var(--foreground); --color-card: var(--card); --color-card-foreground: var(--card-foreground); --color-popover: var(--popover); --color-popover-foreground: var(--popover-foreground); --color-primary: var(--primary); --color-primary-foreground: var(--primary-foreground); --color-secondary: var(--secondary); --color-secondary-foreground: var(--secondary-foreground); --color-muted: var(--muted); --color-muted-foreground: var(--muted-foreground); --color-accent: var(--accent); --color-accent-foreground: var(--accent-foreground); --color-border: var(--border); --color-input: var(--input); --color-ring: var(--ring); --radius-md: var(--radius);
+}
+:root { --primary: #1E2A3A; --primary-foreground: #F6F0E6; --background: #F6F0E6; --foreground: #1E2A3A; --card: #FFFDF8; --card-foreground: #1E2A3A; --popover: #FFFDF8; --popover-foreground: #1E2A3A; --secondary: #E9EFE9; --secondary-foreground: #1E2A3A; --muted: #EEE7DB; --muted-foreground: #6F7780; --accent: #E9943A; --accent-foreground: #1E2A3A; --border: rgba(30,42,58,.13); --input: rgba(30,42,58,.13); --ring: #E9943A; --radius: .65rem; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif; }
+button, a, select, input { transition: transform .16s cubic-bezier(.23,1,.32,1), background-color .18s ease, color .18s ease, border-color .18s ease, box-shadow .18s ease; }
+button:active { transform: scale(.97); }
+::selection { background: #E9943A; color: #1E2A3A; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+@layer base { * { @apply border-border outline-ring/50; } .font-serif { font-family: "Fraunces", Georgia, serif; } .font-mono { font-family: "IBM Plex Mono", ui-monospace, monospace; } }

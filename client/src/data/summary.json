@@ -1,0 +1,40 @@
+{
+  "total": 30,
+  "horizontal": 13,
+  "vertical": 17,
+  "category_counts": {
+    "General marketplace": 3,
+    "Value marketplace": 3,
+    "General merchandise + grocery": 1,
+    "Omnichannel marketplace": 1,
+    "Super-app marketplace": 1,
+    "Open commerce network": 1,
+    "B2G marketplace": 1,
+    "Social/value marketplace": 1,
+    "B2B marketplace": 1,
+    "Fashion": 3,
+    "Beauty": 2,
+    "Eyewear": 1,
+    "Grocery / quick commerce": 4,
+    "Electronics": 2,
+    "Furniture and home": 2,
+    "Baby and kids": 1,
+    "Beauty / personal care D2C": 1,
+    "Consumer electronics D2C": 1
+  },
+  "profitability_counts": {
+    "Unclear": 20,
+    "Not applicable / public-service platform": 1,
+    "Profitable": 3,
+    "Unclear / contribution-margin progress reported": 1,
+    "Cash-burning / not publicly profitable": 1,
+    "Cash-burning / loss-making segment": 1,
+    "Unclear at online-channel level": 2,
+    "Profitable at parent level in FY25 reporting": 1
+  },
+  "private_label_yes": 22,
+  "quick_or_same_day": 19,
+  "public_or_listed_parent": 6,
+  "explicit_scale_disclosures": 4,
+  "source_count": 28
+}
